@@ -10,3 +10,63 @@
     box-sizing: border-box;
 }
 
+/* shared styles starts */
+
+.primary-color{
+    color: linear-gradient(to right,#F7E93F, #FB09B4, #9100F8);
+}
+
+.background-color{
+  background-color: #1A0B2E;
+}
+
+/* shared styles ends */
+
+/* navbar starts */
+
+header{
+  max-width: 100%;
+}
+
+.navbar{
+  background-color: #1A0B2E;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 12rem;
+  border-bottom: #FFFFFF;
+}
+
+
+
+/* .logo{
+  font-size: 2rem;
+  font-weight: bold;
+} */
+
+.nav-menu{
+  display: flex;
+}
+.nav-menu{
+  /* border: 1px solid red; */
+  gap: 2rem;
+ }
+
+.btn{
+  background: linear-gradient(to right,#F7E93F, #FB09B4, #9100F8);
+  border:none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+
+
+
+
+/* navbar ends */
+
+
+
+
+/* Responsive for */
