@@ -233,6 +233,14 @@ hr{
   
 }
 
+.why-choose-container div{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .why-choose-container h4{
   gap: 3rem;
 }
@@ -240,11 +248,7 @@ hr{
 
 .audio-quality{
   grid-area: audio-quality;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  flex-direction: column;
-  gap: 10px;
+  
 }
 
 .mobile-friendly{
