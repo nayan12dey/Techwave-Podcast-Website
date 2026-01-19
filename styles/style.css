@@ -233,13 +233,13 @@ hr{
   
 }
 
-.why-choose-container div{
+/* .audio-quality, .mobile-friendly, .community, {
   display: flex;
   justify-content: center;
   align-items: start;
   flex-direction: column;
   gap: 10px;
-}
+} */
 
 .why-choose-container h4{
   gap: 3rem;
@@ -278,6 +278,14 @@ hr{
     "audio-quality  mobile-friendly   mobile-friendly"
     "audio-quality   community       community"
     "interviews      interviews       resources";
+}
+
+.audio-quality, .mobile-friendly, .community, .interviews, .resources{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
 }
 
 
