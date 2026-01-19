@@ -150,10 +150,65 @@
   font-weight: 600;
 }
 
-
-
-
 /* banner section ends */
+
+
+/* about section starts */
+
+.about-content{
+  /* border: 1px solid red; */
+}
+
+.about-content .about-title{
+  /* max-width: 90%; */
+  font-size: 3rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  padding: 3rem 7rem 1rem;
+}
+
+.about-content .about-description{
+  font-size: 1rem;
+  color: #ffffff93;
+  text-align: center;
+  margin-bottom: 5rem;
+  line-height: 2rem;
+}
+
+hr{
+  max-width: 75%;
+  color: #ffffff34;
+  margin: 0 auto;
+}
+
+.about-info{
+  display: flex;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  /* border: 1px solid red; */
+  margin: 4rem auto 7rem;
+}
+
+.about-info-card{
+   /* border: 1px solid red; */
+}
+
+.about-info-card h3{
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #00FF88;
+  text-align: center;
+}
+
+.about-info p{
+  font-size: 1rem;
+  color: #ffffff93;
+}
+
+/* about section ends */
 
 
 
