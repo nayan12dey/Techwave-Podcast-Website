@@ -192,9 +192,9 @@ hr{
   margin: 4rem auto 7rem;
 }
 
-.about-info-card{
-   /* border: 1px solid red; */
-}
+/* .about-info-card{
+   border: 1px solid red;
+} */
 
 .about-info-card h3{
   font-size: 3rem;
@@ -211,6 +211,85 @@ hr{
 /* about section ends */
 
 
+/* why choose section starts */
+
+#why-choose{
+  background-color: #230E3D;
+}
+
+.why-choose-title{
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 9rem;
+}
+
+.why-choose-container>*{
+  background-color: #351165;
+  border-radius: 2rem;
+  padding: 2.5rem;
+  line-height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.why-choose-container h4{
+  gap: 3rem;
+}
+
+
+.audio-quality{
+  grid-area: audio-quality;
+}
+
+.mobile-friendly{
+  grid-area: mobile-friendly;
+}
+
+.community{
+  grid-area: community;
+}
+
+.interviews{
+  grid-area: interviews;
+}
+
+.resources{
+  grid-area: resources;
+}
+
+
+.why-choose-container{
+  max-width: 75rem;
+  margin: 2.5rem auto;
+  display: grid;
+  gap: 1.8rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "audio-quality  mobile-friendly   mobile-friendly"
+    "audio-quality   community       community"
+    "interviews      interviews       resources";
+}
+
+
+.why-choose-container h4{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.why-choose-container p{
+  font-size: 1rem;
+  color: #ffffff93;
+  line-height: 1.5rem;
+}
+
+
+/* why choose section ends */
 
 
 
