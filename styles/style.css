@@ -230,11 +230,7 @@ hr{
   border-radius: 2rem;
   padding: 2.5rem;
   line-height: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  flex-direction: column;
-  gap: 10px;
+  
 }
 
 .why-choose-container h4{
@@ -244,6 +240,11 @@ hr{
 
 .audio-quality{
   grid-area: audio-quality;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .mobile-friendly{
