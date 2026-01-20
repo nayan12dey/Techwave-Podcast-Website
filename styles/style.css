@@ -535,12 +535,12 @@ footer {
 
  
   .about-content .about-title{
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 2rem 1rem 1rem;
   }
 
   .about-description{
-    padding: 0 1rem;
+    padding: 0 0.5rem;
   }
 
   .about-info{
@@ -561,6 +561,21 @@ footer {
   /* about section ends */
 
   /* why choose section starts */
+
+  #why-choose{
+    padding: 10px 16px;
+  }
+
+  .why-choose-title{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .why-choose-container{
+    display: flex;
+    flex-direction: column;
+  }
 
 
 
