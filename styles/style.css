@@ -398,7 +398,6 @@ hr {
 .host-container {
   max-width: 75rem;
   background-color: rgba(53, 17, 101, 0.4);
-  ;
   display: flex;
   margin: 0 auto 8rem;
   padding: 2.5rem;
@@ -533,28 +532,28 @@ footer {
 
   /* about section starts */
 
- 
-  .about-content .about-title{
+
+  .about-content .about-title {
     font-size: 2.5rem;
     padding: 2rem 1rem 1rem;
   }
 
-  .about-description{
+  .about-description {
     padding: 0 0.5rem;
   }
 
-  .about-info{
+  .about-info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     margin: 3rem 1rem;
   }
 
-  .about-info .about-info-card{
+  .about-info .about-info-card {
     text-align: center;
   }
 
-  .about-info-card h3{
+  .about-info-card h3 {
     font-size: 2rem;
   }
 
@@ -562,17 +561,17 @@ footer {
 
   /* why choose section starts */
 
-  #why-choose{
+  #why-choose {
     padding: 10px 16px;
   }
 
-  .why-choose-title{
+  .why-choose-title {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 1.5rem;
   }
 
-  .why-choose-container{
+  .why-choose-container {
     display: flex;
     flex-direction: column;
   }
@@ -582,17 +581,17 @@ footer {
 
   /* featured section ends */
 
-  #featured{
+  #featured {
     padding: 0px 16px;
   }
 
-  .featured-title{
+  .featured-title {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 1.5rem;
   }
 
-  .featured-cards{
+  .featured-cards {
     display: flex;
     flex-direction: column;
   }
@@ -600,7 +599,35 @@ footer {
   /* featured section ends */
 
 
+  /* Host section starts  */
+
+  #host{
+    /* border: 1px solid red; */
+    /* padding: 40px 16px; */
+    text-align: center;
+  }
+
+  .host-container{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #host h2{
+    margin: 0rem 0rem 3rem;
+  }
+
+  .social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  /* Host section ends  */
+
 
 
 
 }
+
