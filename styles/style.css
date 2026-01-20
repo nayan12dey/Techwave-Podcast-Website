@@ -160,7 +160,7 @@
 } */
 
 .about-content .about-title {
-  /* max-width: 90%; */
+  max-width: 100%;
   font-size: 3rem;
   color: #FFFFFF;
   font-weight: bold;
@@ -530,6 +530,43 @@ footer {
   }
 
   /* navbar section ends */
+
+  /* about section starts */
+
+ 
+  .about-content .about-title{
+    font-size: 2rem;
+    padding: 2rem 1rem 1rem;
+  }
+
+  .about-description{
+    padding: 0 1rem;
+  }
+
+  .about-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 3rem 1rem;
+  }
+
+  .about-info .about-info-card{
+    text-align: center;
+  }
+
+  .about-info-card h3{
+    font-size: 2rem;
+  }
+
+  /* about section ends */
+
+  /* why choose section starts */
+
+
+
+  /* why choose section ends */
+
+
 
 
 
