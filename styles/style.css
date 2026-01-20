@@ -47,12 +47,23 @@
   gap: 2rem;
 }
 
+.nav-menu a:hover{
+  color: #ffffffbc;
+}
+
 
 .btn {
   background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
   border: none;
   border-radius: 2rem;
   padding: 0.5rem 1rem;
+  transition: transform 1s ease;
+  cursor: pointer;
+}
+
+.btn:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 10px rgba(251, 9, 180, 0.45);
 }
 
 .hamburger {
@@ -137,6 +148,13 @@
   background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
   border-radius: 2rem;
   color: #FFFFFF;
+   cursor: pointer;
+  transition: transform 1s ease;
+}
+
+.spotify:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(251, 9, 180, 0.45);
 }
 
 .buttons .subscribe {
@@ -148,6 +166,15 @@
   border-radius: 2rem;
   font-size: 1rem;
   font-weight: 600;
+  cursor: pointer;
+  transition: background-color 1s ease, transform 1s ease;
+}
+
+.subscribe:hover{
+  background-color: #00FF88;
+  box-shadow: 0px 10px 28px #00ff88b2;
+  color: #001b12;
+  transform: translateY(-3px);
 }
 
 /* banner section ends */
@@ -342,6 +369,11 @@ hr {
   background-color: #250D44;
   border-radius: 2rem;
   padding-bottom: 2rem;
+  transition: transform 1s ease;
+}
+
+.card:hover{
+  transform: translate(-3px);
 }
 
 .card iframe {
@@ -493,6 +525,45 @@ footer {
 /* footer section ends */
 
 
+/* Animation section starts*/
+
+@keyframes moveupdown {
+  0% {
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-7px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+
+}
+
+@keyframes moveX{
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(3px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+.banner-badge{
+  animation: moveupdown 1s ease-in-out infinite ;
+}
+
+
+button i{
+  animation: moveX 2s ease-in-out infinite;
+}
+
+/* Animation section ends*/
+
+
 
 
 
@@ -529,6 +600,18 @@ footer {
   }
 
   /* navbar section ends */
+
+  /* banner section starts */
+
+    
+
+
+
+
+
+
+
+  /* banner section ends */
 
   /* about section starts */
 
@@ -601,24 +684,24 @@ footer {
 
   /* Host section starts  */
 
-  #host{
+  #host {
     /* border: 1px solid red; */
     /* padding: 40px 16px; */
     text-align: center;
   }
 
-  .host-container{
+  .host-container {
     width: 25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  #host h2{
+  #host h2 {
     margin: 0rem 0rem 3rem;
   }
 
-  .social-icons{
+  .social-icons {
     display: flex;
     justify-content: center;
     gap: 14px;
@@ -626,8 +709,29 @@ footer {
 
   /* Host section ends  */
 
+  /* footer section starts */
 
+  footer {
+    width: 100%;
+    background: url("../assets/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 16px 24px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container img {
+    max-width: 160px;
+  }
+
+
+  /* footer section ends */
 
 
 }
-
