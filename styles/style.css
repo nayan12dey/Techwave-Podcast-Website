@@ -577,12 +577,21 @@ button i {
     display: none;
   }
 
+  body{
+    max-width: 100%;;
+  }
+
   /* navbar section starts */
 
   .navbar {
+    max-width: 100%;
     padding: 1rem 1.5rem;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     border-bottom: 2px solid #ffffff1b;
+  }
+
+  .navbar img{
+    max-width: 8rem;
   }
 
   .nav-menu,
