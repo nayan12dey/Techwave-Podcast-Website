@@ -789,6 +789,10 @@ button i {
     flex-direction: column;
   }
 
+  .featured-cards iframe{
+    width: auto;
+  }
+
   /* featured section ends */
 
 
